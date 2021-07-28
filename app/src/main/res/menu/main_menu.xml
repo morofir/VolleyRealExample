@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always|collapseActionView"
+        android:title="Search..."
+        android:icon="@drawable/ic_baseline_person_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:id="@+id/search_bar"
+        />
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="Sort A-Z"
+        android:id="@+id/sortaz"
+        />
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="Sort Z-A"
+        android:id="@+id/sortza"
+        />
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="Sort by Size"
+        android:id="@+id/sortSize"
+        />
+
+</menu>
